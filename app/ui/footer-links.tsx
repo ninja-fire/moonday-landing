@@ -5,55 +5,55 @@ import Link from 'next/link';
 const links = [
     {
         name: 'Services',
-        href: '/services',
+        href: 'moonday.design/services',
         sublinks: [
             {
                 name: "Branding",
-                href: '/services/branding',
+                href: 'moonday.design/services/branding',
             },
             {
                 name: "UX/UI Design",
-                href: '/services/uxuidesign',
+                href: 'moonday.design/services/uxuidesign',
             },
             {
                 name: "Consulting",
-                href: '/services/consulting',
+                href: 'moonday.design/services/consulting',
             },
         ]
     },
     {
         name: 'Projects',
-        href: '/projects',
+        href: 'moonday.design/projects',
         sublinks: [
             {
                 name: "Coinhouse",
-                href: '/projects/coinhouse',
+                href: 'moonday.design/projects/coinhouse',
             },
             {
                 name: "Linxo",
-                href: '/projects/linxo',
+                href: 'moonday.design/projects/linxo',
             },
             {
                 name: "Looter",
-                href: '/projects/looter',
+                href: 'moonday.design/projects/looter',
             },
             {
                 name: "Trooper",
-                href: '/projects/trooper',
+                href: 'moonday.design/projects/trooper',
             },
         ]
     },
     {
         name: 'Contact',
-        href: '/contact',
+        href: 'moonday.design/contact',
         sublinks: [
             {
                 name: "Book a Call",
-                href: '/contact',
+                href: 'moonday.design/contact',
             },
             {
                 name: "Write us!",
-                href: '/contact',
+                href: 'moonday.design/contact',
             },
         ]
     },

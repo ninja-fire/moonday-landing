@@ -29,7 +29,7 @@ export default function RootLayout({
           </Link>
           <Link href="" target=""
             className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
-            <div className="noise flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+            <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
               <Image priority src={sendicon} width={24} height={24} alt='' />
               <span className="inline">Press to chat</span>
             </div>

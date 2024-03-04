@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <Link href="" target=""
               className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
-              <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+              <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
                 <Image priority src={sendicon} width={24} height={24} alt='' />
                 <span className="inline">Press to chat</span>
               </div>
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="noise flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+      <div className="bgeffect flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Exceptional branding and intuitive interfaces are non-negotiables in Web3.</h2>
         <p className="text-base text-caption font-medium">You want to lead mass adoption with unmatched UX.</p>
         <Link href="" target=""
@@ -176,7 +176,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="noise flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+      <div className="bgeffect flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Unlock explosive growth with creativity and interactivity at the core of your social media strategy.</h2>
         <p className="text-base text-caption font-medium">Leverage video content, foster community bonds, and cultivate Web3 partnerships to drive success.</p>
         <Link href="" target=""
@@ -189,7 +189,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-40 px-40">
-        <div className="flex gap-4 items-center justify-center">
+        <div className="flex gap-6 items-center justify-center">
           <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
             <div className="flex flex-col gap-2">
               <h3>In the last 6 months</h3>
@@ -263,8 +263,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div className="noise flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+      
+      <div className="bgeffect flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Have questions or interested in a collaboration?</h2>
         <p className="text-base text-caption font-medium">Let's leverage the right tools to foster trust and seamless communication. Connect with us on Telegram.</p>
         <Link href="" target=""

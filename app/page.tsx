@@ -108,7 +108,6 @@ export default function Home() {
           <div className="flex gap-6 flex-wrap lg:flex-nowrap">
             <div className="flex grow lg:grow-0 flex-nowrap relative rounded-3xl justify-center items-center h-80 w-[40rem] overflow-hidden bg-background border border-transparentbg shadow-whitebox">
               <Image priority={true} src={looterlogo} width={2500} height={1562} alt="" className="flex absolute w-full scale-[140%] hover:scale-[144%] transition-all ease-in hover:brightness-[1.16]" />
-              <Image priority quality={50} src={gradient} alt="" width={1080} height={1080} className="absolute h-full w-[64px] -left-20 top-[8rem] blur-2xl scale-y-[250%]" />
             </div>
             <div className="flex grow flex-nowrap relative w-full rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
               <Image priority={true} src={looterswap} width={2500} height={1562} alt="" className="flex absolute w-full scale-[180%] md:scale-[100%] md:hover:scale-[104%] transition-all ease-in hover:brightness-[1.16]" />
@@ -117,7 +116,6 @@ export default function Home() {
           <div className="flex gap-6 flex-wrap lg:flex-nowrap">
             <div className="flex grow flex-nowrap relative rounded-3xl justify-center items-center h-80 w-full overflow-hidden bg-background border border-transparentbg shadow-whitebox">
               <Image priority={true} src={lootercard} width={2500} height={1801} alt="" className="flex absolute w-full scale-[180%] hover:scale-[184%] md:scale-[112%] md:hover:scale-[116%] transition-all ease-in hover:brightness-[1.16]" />
-              <Image priority quality={50} src={gradient} alt="" width={1080} height={1080} className="absolute h-full w-[64px] -left-20 bottom-[8rem] blur-2xl scale-y-[250%]" />
             </div>
             <div className='flex gap-6 flex-wrap md:flex-nowrap w-full'>
               <div className="flex grow-0 relative w-full md:w-6/12 rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">

@@ -22,17 +22,21 @@ import marketing1 from '../public/marketing/marketing1.webp';
 import marketing2 from '../public/marketing/marketing2.webp';
 import marketing3 from '../public/marketing/marketing3.webp';
 import marketing4 from '../public/marketing/marketing4.webp';
+import hydnlogo from '../public/logopartners/hydnlogo.svg';
+import bhlogo from '../public/logopartners/bhlogo.svg';
+import block3logo from '../public/logopartners/block3logo.png';
+import radishlogo from '../public/logopartners/radishlogo.svg';
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center px-20 md:px-40 overflow-hidden">
-        <div className="flex items-center justify-between w-full">
-          <div className="flex flex-col gap-16">
+      <div className="flex flex-col items-center px-4 md:px-20 lg:px-40 overflow-hidden w-full h-screen">
+        <div className="flex flex-wrap md:flex-nowrap items-center md:justify-between w-full h-full">
+          <div className="flex flex-col gap-8 md:gap-16 md:min-w-[64%] xl:min-w-[40%] 2xl:min-w-[32%] justify-center">
             <div className="flex flex-col gap-6">
               <h1>Forge Your Web3 Identity</h1>
               <h2 className="text-base text-caption font-medium">Where Innovative Design and Strategic Social Presence Amplify Your Brand's Voice.</h2>
-              <div className="flex gap-4 items-center justify-center">
+              <div className="flex flex-wrap gap-3 items-center">
                 <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
                   <span className="text-start text-sm font-medium text-label">Branding</span>
                 </div>
@@ -47,35 +51,32 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <Link href="" target=""
-              className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
-              <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+            <Link href="https://t.me/moondaystudio" target="_blank"
+              className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none w-fit">
+              <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
                 <Image priority src={sendicon} width={24} height={24} alt='' />
                 <span className="inline">Press to chat</span>
               </div>
             </Link>
           </div>
-          <Image priority src={heroillu} width={2628} height={2226} alt='' className="scale-75" />
+          <Image priority src={heroillu} width={2628} height={2226} alt='' className="scale-125 lg:scale-90" />
         </div>
       </div>
 
-      <div className="flex flex-col gap-6 items-center justify-center">
-        <p className="text-start text-md font-bold text-label">Our global hub</p>
-        <div className="flex gap-0 md:gap-16 justify-center items-center opacity-80">
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
-          <div className="contents justify-center items-center py-8"><Image src={logo} alt="" width={169} height={40} className="scale-50 md:scale-75 ld:scale-90" /></div>
+      <div className="flex flex-col px-4 md:px-20 lg:px-40 gap-6 items-center justify-center">
+        <p className="text-start text-md font-semibold text-caption">Our global hub</p>
+        <div className="flex flex-wrap gap-0 md:gap-16 justify-center items-center">
+          <Link href="https://hydnsec.com/" target="blank" className="flex justify-center items-center"><Image src={hydnlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+          <Link href="https://www.blockhubdao.com/" target="blank" className="justify-center items-center"><Image src={bhlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+          <Link href="https://block3.pr/" target="blank" className="flex justify-center items-center"><Image src={block3logo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+          <Link href="https://radish.la/" target="blank" className="flex justify-center items-center"><Image src={radishlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
         </div>
       </div>
 
-      <div className="bgeffect flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+      <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Exceptional branding and intuitive interfaces are non-negotiables in Web3.</h2>
         <p className="text-base text-caption font-medium">You want to lead mass adoption with unmatched UX.</p>
-        <Link href="" target=""
+        <Link href="https://t.me/moondaystudio" target="_blank"
           className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
           <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
             <Image priority src={sendicon} width={24} height={24} alt='' />
@@ -84,7 +85,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-8 w-full px-40">
+      <div className="flex flex-col px-4 md:px-20 lg:px-40 gap-8 w-full">
         <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
           <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-lime-200 to-lime-500'>A tailored landing page that converts</p>
           <h2>All you need for your launch</h2>
@@ -129,7 +130,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-8 w-full px-40">
+      <div className="flex flex-col px-4 md:px-20 lg:px-40 gap-8 w-full">
         <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
           <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
           <h2>Reinforce your brand and community</h2>
@@ -174,10 +175,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bgeffect flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+      <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Unlock explosive growth with creativity and interactivity at the core of your social media strategy.</h2>
         <p className="text-base text-caption font-medium">Leverage video content, foster community bonds, and cultivate Web3 partnerships to drive success.</p>
-        <Link href="" target=""
+        <Link href="https://t.me/moondaystudio" target="_blank"
           className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
           <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
             <Image priority src={sendicon} width={24} height={24} alt='' />
@@ -186,8 +187,8 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-40 px-40">
-        <div className="flex gap-6 items-center justify-center">
+      <div className="flex flex-col gap-40 px-4 md:px-20 lg:px-40">
+        <div className="flex flex-wrap lg:flex-nowrap gap-6 items-center justify-center">
           <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
             <div className="flex flex-col gap-2">
               <h3>In the last 6 months</h3>
@@ -206,14 +207,14 @@ export default function Home() {
               <h3>154%</h3>
               <p className="text-base text-caption font-medium">social audience reach growth</p>
             </div>
-            <Image priority={true} src={kpi3} width={640} height={500} alt="" className="scale-125" />
+            <Image priority={true} src={kpi3} width={640} height={500} alt="" className="md:scale-125" />
           </div>
           <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
             <div className="flex flex-col gap-2">
               <h3>44k+</h3>
               <p className="text-base text-caption font-medium">organic social post engagement generated</p>
             </div>
-            <Image priority={true} src={kpi4} width={640} height={500} alt="" className="scale-125" />
+            <Image priority={true} src={kpi4} width={640} height={500} alt="" className="md:scale-125" />
           </div>
         </div>
 
@@ -262,10 +263,10 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="bgeffect flex flex-col text-center gap-8 py-20 px-40 items-center justify-center rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+      <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Have questions or interested in a collaboration?</h2>
         <p className="text-base text-caption font-medium">Let's leverage the right tools to foster trust and seamless communication. Connect with us on Telegram.</p>
-        <Link href="" target=""
+        <Link href="https://t.me/moondaystudio" target="_blank"
           className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
           <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
             <Image priority src={sendicon} width={24} height={24} alt='' />

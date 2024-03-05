@@ -23,20 +23,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontclash.className} antialiased scroll-smooth`}>
-        <header className="flex sticky top-0 justify-between items-center pt-4 pb-2 px-40 z-10 bg-background">
+        <header className="flex sticky top-0 justify-between items-center pt-4 pb-2 px-4 md:px-20 lg:px-40 z-10 bg-background">
           <Link className="flex items-start justify-start" href="/">
             <Image priority src={logo} width={227} height={96} alt='' className='w-4/5 md:scale-90' />
           </Link>
-          <Link href="" target=""
+          <Link href="https://t.me/moondaystudio" target="_blank"
             className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
-            <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+            <div className="bgeffect flex gap-2 transition-all justify-center items-center md:pr-16 md:pl-12 px-4 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
               <Image priority src={sendicon} width={24} height={24} alt='' />
-              <span className="inline">Press to chat</span>
+              <span className="inline hidden md:block">Press to chat</span>
             </div>
           </Link>
         </header>
-        <main className="flex flex-col min-h-screen gap-40">{children}</main>
-        <footer className="flex flex-col justify-center items-start gap-8 bg-background py-20 px-20 md:px-40">
+        <main className="flex flex-col min-h-screen gap-40 items-center">{children}</main>
+        <footer className="flex flex-col justify-center items-start gap-8 bg-background py-20 px-4 md:px-20 lg:px-40">
           <Footer />
         </footer>
       </body>

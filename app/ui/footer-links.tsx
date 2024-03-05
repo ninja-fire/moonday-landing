@@ -9,51 +9,51 @@ const links = [
         sublinks: [
             {
                 name: "Branding",
-                href: 'moonday.design/services/branding',
+                href: 'https://moonday.design/',
             },
             {
                 name: "UX/UI Design",
-                href: 'moonday.design/services/uxuidesign',
+                href: 'https://moonday.design/',
             },
             {
                 name: "Consulting",
-                href: 'moonday.design/services/consulting',
+                href: 'https://moonday.design/',
             },
         ]
     },
     {
         name: 'Projects',
-        href: 'moonday.design/projects',
+        href: 'https://moonday.design/',
         sublinks: [
             {
                 name: "Coinhouse",
-                href: 'moonday.design/projects/coinhouse',
+                href: 'https://moonday.design/',
             },
             {
                 name: "Linxo",
-                href: 'moonday.design/projects/linxo',
+                href: 'https://moonday.design/',
             },
             {
                 name: "Looter",
-                href: 'moonday.design/projects/looter',
+                href: 'https://moonday.design/',
             },
             {
                 name: "Trooper",
-                href: 'moonday.design/projects/trooper',
+                href: 'https://moonday.design/',
             },
         ]
     },
     {
         name: 'Contact',
-        href: 'moonday.design/contact',
+        href: 'https://moonday.design/',
         sublinks: [
             {
                 name: "Book a Call",
-                href: 'moonday.design/contact',
+                href: 'https://moonday.design/',
             },
             {
                 name: "Write us!",
-                href: 'moonday.design/contact',
+                href: 'https://moonday.design/',
             },
         ]
     },

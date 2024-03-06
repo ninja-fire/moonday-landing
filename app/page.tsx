@@ -30,9 +30,9 @@ import radishlogo from '../public/logopartners/radishlogo.svg';
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center px-4 md:px-20 lg:px-40 overflow-hidden w-full h-screen">
-        <div className="flex flex-wrap md:flex-nowrap items-center md:justify-between w-full h-full">
-          <div className="flex flex-col gap-8 md:gap-16 md:min-w-[64%] xl:min-w-[40%] 2xl:min-w-[32%] justify-center">
+      <div className="flex flex-col items-center px-4 md:px-20 xl:px-40 overflow-hidden w-full h-screen">
+        <div className="flex flex-wrap md:flex-nowrap items-center justify-between gap-20 md:gap-0 pt-20 h-full w-full">
+          <div className="flex flex-col gap-8 justify-center">
             <div className="flex flex-col gap-6">
               <h1>Forge Your Web3 Identity</h1>
               <h2 className="text-base text-caption font-medium">Where Innovative Design and Strategic Social Presence Amplify Your Brand's Voice.</h2>
@@ -59,11 +59,13 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <Image priority src={heroillu} width={2628} height={2226} alt='' className="scale-125 lg:scale-90" />
+          <div className="flex relative w-full h-full items-start md:items-center justify-center">
+            <Image priority src={heroillu} width={2628} height={2226} alt='' className="flex absolute md:scale-[250%] scale-125 lg:scale-150 2xl:scale-125 left-0 md:left-60 lg:left-20 2xl:left-40" />
+          </div>
         </div>
       </div>
 
-      <div className="flex flex-col px-4 md:px-20 lg:px-40 gap-6 items-center justify-center">
+      <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-6 items-center justify-center">
         <p className="text-start text-md font-semibold text-caption">Our global hub</p>
         <div className="flex flex-wrap gap-0 md:gap-16 justify-center items-center">
           <Link href="https://hydnsec.com/" target="blank" className="flex justify-center items-center"><Image src={hydnlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
@@ -85,7 +87,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col px-4 md:px-20 lg:px-40 gap-8 w-full">
+      <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-8 w-full">
         <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
           <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-lime-200 to-lime-500'>A tailored landing page that converts</p>
           <h2>All you need for your launch</h2>
@@ -130,7 +132,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col px-4 md:px-20 lg:px-40 gap-8 w-full">
+      <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-8 w-full">
         <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
           <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
           <h2>Reinforce your brand and community</h2>
@@ -152,7 +154,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 w-full">
           <div className="flex gap-6 flex-wrap lg:flex-nowrap">
-            <div className="group flex grow-0 flex-nowrap relative rounded-3xl justify-center items-center h-80 w-[40rem] overflow-hidden bg-white border border-transparentbg shadow-whitebox">
+            <div className="group flex grow lg:grow-0 flex-nowrap relative rounded-3xl justify-center items-center h-80 w-[40rem] overflow-hidden bg-white border border-transparentbg shadow-whitebox">
               <Image priority={true} src={coinhouseLogo} alt="" className="scale-[80%] group-hover:scale-[84%] transition-all ease-in" />
             </div>
             <div className="flex grow flex-nowrap relative w-full rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
@@ -187,34 +189,46 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-40 px-4 md:px-20 lg:px-40">
+      <div className="flex flex-col gap-40 px-4 md:px-20 xl:px-40">
         <div className="flex flex-wrap lg:flex-nowrap gap-6 items-center justify-center">
-          <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
-            <div className="flex flex-col gap-2">
-              <h3>In the last 6 months</h3>
+          <div className='flex gap-6 flex-wrap md:flex-nowrap w-full'>
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>In the last 6 months</h3>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi1} width={640} height={500} alt="" className="absolute scale-150" />
+              </div>
             </div>
-            <Image priority={true} src={kpi1} width={640} height={500} alt="" className="scale-150" />
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>15+</h3>
+                <p className="text-base text-caption font-medium">B2B partnerships implemented</p>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi2} width={640} height={500} alt="" className="absolute scale-150" />
+              </div>
+            </div>
           </div>
-          <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
-            <div className="flex flex-col gap-2">
-              <h3>15+</h3>
-              <p className="text-base text-caption font-medium">B2B partnerships implemented</p>
+          <div className="flex gap-6 flex-wrap md:flex-nowrap w-full">
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>154%</h3>
+                <p className="text-base text-caption font-medium">social audience reach growth</p>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi3} width={640} height={500} alt="" className="absolute scale-110" />
+              </div>
             </div>
-            <Image priority={true} src={kpi2} width={640} height={500} alt="" className="scale-150" />
-          </div>
-          <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
-            <div className="flex flex-col gap-2">
-              <h3>154%</h3>
-              <p className="text-base text-caption font-medium">social audience reach growth</p>
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>44k+</h3>
+                <p className="text-base text-caption font-medium">organic social post engagement generated</p>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi4} width={640} height={500} alt="" className="absolute scale-110" />
+              </div>
             </div>
-            <Image priority={true} src={kpi3} width={640} height={500} alt="" className="md:scale-125" />
-          </div>
-          <div className="flex flex-col grow rounded-3xl p-8 pb-4 h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
-            <div className="flex flex-col gap-2">
-              <h3>44k+</h3>
-              <p className="text-base text-caption font-medium">organic social post engagement generated</p>
-            </div>
-            <Image priority={true} src={kpi4} width={640} height={500} alt="" className="md:scale-125" />
           </div>
         </div>
 
@@ -262,7 +276,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Have questions or interested in a collaboration?</h2>
         <p className="text-base text-caption font-medium">Let's leverage the right tools to foster trust and seamless communication. Connect with us on Telegram.</p>

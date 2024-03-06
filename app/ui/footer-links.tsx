@@ -5,7 +5,7 @@ import Link from 'next/link';
 const links = [
     {
         name: 'Services',
-        href: 'moonday.design/services',
+        href: 'https://moonday.design/',
         sublinks: [
             {
                 name: "Branding",
@@ -23,37 +23,37 @@ const links = [
     },
     {
         name: 'Projects',
-        href: 'https://moonday.design/',
+        href: 'https://moonday.design/#work',
         sublinks: [
             {
                 name: "Coinhouse",
-                href: 'https://moonday.design/',
+                href: 'https://moonday.design/coinhouse',
             },
             {
                 name: "Linxo",
-                href: 'https://moonday.design/',
+                href: 'https://moonday.design/linxo',
             },
             {
                 name: "Looter",
-                href: 'https://moonday.design/',
+                href: 'https://moonday.design/looter',
             },
             {
                 name: "Trooper",
-                href: 'https://moonday.design/',
+                href: 'https://moonday.design/trooper',
             },
         ]
     },
     {
         name: 'Contact',
-        href: 'https://moonday.design/',
+        href: 'https://moonday.design/#wishlist',
         sublinks: [
             {
                 name: "Book a Call",
-                href: 'https://moonday.design/',
+                href: 'https://moonday.design/#contact-cta',
             },
             {
                 name: "Write us!",
-                href: 'https://moonday.design/',
+                href: 'mailto:contact@moonday.design',
             },
         ]
     },

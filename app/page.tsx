@@ -1,113 +1,293 @@
 import Image from "next/image";
+import heroillu from "../public/heroillu.png";
+import Link from "next/link";
+import sendicon from "../public/icons/send.svg";
+import gradient from '../public/gradient.webp';
+import logo from "../public/logo/moonday-logo.svg";
+import looterlogo from "../public/looter/looterlogo.webp";
+import looterswap from "../public/looter/looterswap.webp";
+import looterMascot from "../public/looter/looterMascot.webp";
+import looterTreasure from "../public/looter/lootertreasure.webp";
+import lootercard from "../public/looter/lootercard.webp";
+import coinhouseLogo from '../public/coinhouse/coinhouselogo.svg';
+import coinhouseMockup from '../public/coinhouse/coinhouse-mockup-pages.webp';
+import coinhouseCoins from '../public/coinhouse/coinhouseCoins.webp';
+import coinhouseGallery from '../public/coinhouse/Coinhouse-gallery.webp';
+import coinhouseCarte from '../public/coinhouse/cartevoeux-gallery.webp';
+import kpi1 from '../public/kpi/kpi1.svg';
+import kpi2 from '../public/kpi/kpi2.svg';
+import kpi3 from '../public/kpi/kpi3.svg';
+import kpi4 from '../public/kpi/kpi4.svg';
+import marketing1 from '../public/marketing/marketing1.webp';
+import marketing2 from '../public/marketing/marketing2.webp';
+import marketing3 from '../public/marketing/marketing3.webp';
+import marketing4 from '../public/marketing/marketing4.webp';
+import hydnlogo from '../public/logopartners/hydnlogo.svg';
+import bhlogo from '../public/logopartners/bhlogo.svg';
+import block3logo from '../public/logopartners/block3logo.png';
+import radishlogo from '../public/logopartners/radishlogo.svg';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <div className="flex flex-col items-center px-4 md:px-20 xl:px-40 overflow-hidden w-full h-screen">
+        <div className="flex flex-wrap md:flex-nowrap items-center justify-between gap-20 md:gap-0 pt-20 h-full w-full">
+          <div className="flex flex-col gap-8 justify-center">
+            <div className="flex flex-col gap-6">
+              <h1>Forge Your Web3 Identity</h1>
+              <h2 className="text-base text-caption font-medium">Where Innovative Design and Strategic Social Presence Amplify Your Brand's Voice.</h2>
+              <div className="flex flex-wrap gap-3 items-center">
+                <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+                  <span className="text-start text-sm font-medium text-label">Branding</span>
+                </div>
+                <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+                  <span className="text-start text-sm font-medium text-label">UX/UI design</span>
+                </div>
+                <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+                  <span className="text-start text-sm font-medium text-label">Marketing Strategy</span>
+                </div>
+                <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+                  <span className="text-start text-sm font-medium text-label">Community Building</span>
+                </div>
+              </div>
+            </div>
+            <Link href="https://t.me/moondaystudio" target="_blank"
+              className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none w-fit">
+              <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+                <Image priority src={sendicon} width={24} height={24} alt='' />
+                <span className="inline">Press to chat</span>
+              </div>
+            </Link>
+          </div>
+          <div className="flex relative w-full h-full items-start md:items-center justify-center">
+            <Image priority src={heroillu} width={2628} height={2226} alt='' className="flex absolute md:scale-[250%] scale-125 lg:scale-150 2xl:scale-125 left-0 md:left-60 lg:left-20 2xl:left-40" />
+          </div>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-6 items-center justify-center">
+        <p className="text-start text-md font-semibold text-caption">Our global hub</p>
+        <div className="flex flex-wrap gap-0 md:gap-16 justify-center items-center">
+          <Link href="https://hydnsec.com/" target="blank" className="flex justify-center items-center"><Image src={hydnlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+          <Link href="https://www.blockhubdao.com/" target="blank" className="justify-center items-center"><Image src={bhlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+          <Link href="https://block3.pr/" target="blank" className="flex justify-center items-center"><Image src={block3logo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+          <Link href="https://radish.la/" target="blank" className="flex justify-center items-center"><Image src={radishlogo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+        <h2>Exceptional branding and intuitive interfaces are non-negotiables in Web3.</h2>
+        <p className="text-base text-caption font-medium">You want to lead mass adoption with unmatched UX.</p>
+        <Link href="https://t.me/moondaystudio" target="_blank"
+          className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
+          <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+            <Image priority src={sendicon} width={24} height={24} alt='' />
+            <span className="inline">Press to chat</span>
+          </div>
+        </Link>
       </div>
-    </main>
+
+      <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-8 w-full">
+        <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
+          <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-lime-200 to-lime-500'>A tailored landing page that converts</p>
+          <h2>All you need for your launch</h2>
+          <p className="text-sm font-medium text-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
+          <div className="flex gap-2 w-full flex-wrap">
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">Branding</span>
+            </div>
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">UX/UI Design</span>
+            </div>
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">3D Design</span>
+            </div>
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">Pitch Deck</span>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-6 w-full">
+          <div className="flex gap-6 flex-wrap lg:flex-nowrap">
+            <div className="flex grow lg:grow-0 flex-nowrap relative rounded-3xl justify-center items-center h-80 w-[40rem] overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={looterlogo} width={2500} height={1562} alt="" className="flex absolute w-full scale-[140%] hover:scale-[144%] transition-all ease-in hover:brightness-[1.16]" />
+            </div>
+            <div className="flex grow flex-nowrap relative w-full rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={looterswap} width={2500} height={1562} alt="" className="flex absolute w-full scale-[180%] md:scale-[100%] md:hover:scale-[104%] transition-all ease-in hover:brightness-[1.16]" />
+            </div>
+          </div>
+          <div className="flex gap-6 flex-wrap lg:flex-nowrap">
+            <div className="flex grow flex-nowrap relative rounded-3xl justify-center items-center h-80 w-full overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={lootercard} width={2500} height={1801} alt="" className="flex absolute w-full scale-[180%] hover:scale-[184%] md:scale-[112%] md:hover:scale-[116%] transition-all ease-in hover:brightness-[1.16]" />
+            </div>
+            <div className='flex gap-6 flex-wrap md:flex-nowrap w-full'>
+              <div className="flex grow-0 relative w-full md:w-6/12 rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+                <Image priority={true} src={looterTreasure} width={1080} height={1080} alt="" className="flex absolute w-full scale-[180%] top-40 hover:scale-[184%] transition-all ease-in hover:brightness-[1.16]" />
+              </div>
+              <div className="flex grow-0 relative w-full md:w-6/12 rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+                <Image priority={true} src={looterMascot} width={1080} height={1080} alt="" className="flex absolute w-full scale-[180%] top-24 hover:scale-[184%] transition-all ease-in hover:brightness-[1.16]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-8 w-full">
+        <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
+          <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
+          <h2>Reinforce your brand and community</h2>
+          <p className="text-sm font-medium text-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
+          <div className="flex gap-2 w-full flex-wrap">
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">Rebranding</span>
+            </div>
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">Landing Page</span>
+            </div>
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">Social Content</span>
+            </div>
+            <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
+              <span className="text-start text-sm font-medium text-label">Motion Design</span>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-6 w-full">
+          <div className="flex gap-6 flex-wrap lg:flex-nowrap">
+            <div className="group flex grow lg:grow-0 flex-nowrap relative rounded-3xl justify-center items-center h-80 w-[40rem] overflow-hidden bg-white border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={coinhouseLogo} alt="" className="scale-[80%] group-hover:scale-[84%] transition-all ease-in" />
+            </div>
+            <div className="flex grow flex-nowrap relative w-full rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={coinhouseMockup} width={3000} height={2000} alt="" className="flex absolute w-full scale-[140%] md:scale-[100%] md:hover:scale-[104%] transition-all ease-in hover:brightness-[1.04]" />
+            </div>
+          </div>
+          <div className="flex gap-6 flex-wrap lg:flex-nowrap">
+            <div className="flex grow flex-nowrap relative rounded-3xl justify-center items-center h-80 w-full overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={coinhouseGallery} width={2694} height={2022} alt="" className="flex absolute w-full scale-[120%] md:scale-[100%] md:hover:scale-[104%] transition-all ease-in hover:brightness-[1.04]" />
+            </div>
+            <div className='flex gap-6 flex-wrap md:flex-nowrap w-full'>
+              <div className="flex grow-0 relative w-full md:w-6/12 rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+                <Image priority={true} src={coinhouseCoins} width={1225} height={1500} alt="" className="flex absolute w-full scale-[108%] hover:scale-[112%] transition-all ease-in hover:brightness-[1.04]" />
+              </div>
+              <div className="flex grow-0 relative w-full md:w-6/12 rounded-3xl justify-center items-center h-80 overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+                <Image priority={true} src={coinhouseCarte} width={2694} height={2022} alt="" className="flex absolute w-full scale-[180%] hover:scale-[184%] transition-all ease-in hover:brightness-[1.04]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+        <h2>Unlock explosive growth with creativity and interactivity at the core of your social media strategy.</h2>
+        <p className="text-base text-caption font-medium">Leverage video content, foster community bonds, and cultivate Web3 partnerships to drive success.</p>
+        <Link href="https://t.me/moondaystudio" target="_blank"
+          className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
+          <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+            <Image priority src={sendicon} width={24} height={24} alt='' />
+            <span className="inline">Press to chat</span>
+          </div>
+        </Link>
+      </div>
+
+      <div className="flex flex-col gap-40 px-4 md:px-20 xl:px-40">
+        <div className="flex flex-wrap lg:flex-nowrap gap-6 items-center justify-center">
+          <div className='flex gap-6 flex-wrap md:flex-nowrap w-full'>
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>In the last 6 months</h3>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi1} width={640} height={500} alt="" className="absolute scale-150" />
+              </div>
+            </div>
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>15+</h3>
+                <p className="text-base text-caption font-medium">B2B partnerships implemented</p>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi2} width={640} height={500} alt="" className="absolute scale-150" />
+              </div>
+            </div>
+          </div>
+          <div className="flex gap-6 flex-wrap md:flex-nowrap w-full">
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>154%</h3>
+                <p className="text-base text-caption font-medium">social audience reach growth</p>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi3} width={640} height={500} alt="" className="absolute scale-110" />
+              </div>
+            </div>
+            <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <div className="flex flex-col gap-2">
+                <h3>44k+</h3>
+                <p className="text-base text-caption font-medium">organic social post engagement generated</p>
+              </div>
+              <div className="flex relative items-center justify-center w-full h-full">
+                <Image priority={true} src={kpi4} width={640} height={500} alt="" className="absolute scale-110" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-8 w-full">
+          <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
+            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
+            <h2>Grow your TVL</h2>
+            <p className="text-sm font-medium text-caption">Let us create unique partnerships involving the different spaces of the Web3 ecosystem to drive your business growth, and trust us to create interactive content to promote them.</p>
+          </div>
+          <div className="flex flex-col gap-6 w-full">
+            <div className="flex gap-6 flex-wrap lg:flex-nowrap">
+              <div className="flex rounded-3xl justify-center items-center overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+                <Image priority={true} src={marketing1} width={848} height={736} alt="" className="" />
+              </div>
+              <div className="flex grow rounded-3xl justify-center items-center overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+                <Image priority={true} src={marketing2} width={1280} height={720} alt="" className="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-8 w-full">
+          <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
+            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
+            <h2>Grow your hype</h2>
+            <p className="text-sm font-medium text-caption">We know how to design high quality content to maximize the hype around your updates & announcements</p>
+          </div>
+          <div className="flex flex-col gap-6 w-full">
+            <div className="flex w-full grow rounded-3xl justify-center items-center overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={marketing3} width={1280} height={720} alt="" className="w-full" />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-8 w-full">
+          <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
+            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
+            <h2>Community building is always evolving</h2>
+            <p className="text-sm font-medium text-caption">You want to design the best Web3 strategies, using the right tools and trends in order to build a strong and proactive community that will help you reach your goals!</p>
+          </div>
+          <div className="flex flex-col gap-6 w-full">
+            <div className="flex w-full rounded-3xl justify-center items-center overflow-hidden bg-background border border-transparentbg shadow-whitebox">
+              <Image priority={true} src={marketing4} width={1280} height={720} alt="" className="w-full" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
+        <h2>Have questions or interested in a collaboration?</h2>
+        <p className="text-base text-caption font-medium">Let's leverage the right tools to foster trust and seamless communication. Connect with us on Telegram.</p>
+        <Link href="https://t.me/moondaystudio" target="_blank"
+          className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
+          <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
+            <Image priority src={sendicon} width={24} height={24} alt='' />
+            <span className="inline">Press to chat</span>
+          </div>
+        </Link>
+      </div>
+    </>
   );
 }

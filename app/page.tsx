@@ -51,7 +51,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <Link href="https://t.me/moondaystudio" target="_blank"
+            <Link href="https://t.me/moondaydesign" target="_blank"
               className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none w-fit">
               <div className="bgeffect flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
                 <Image priority src={sendicon} width={24} height={24} alt='' />
@@ -78,7 +78,7 @@ export default function Home() {
       <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Exceptional branding and intuitive interfaces are non-negotiables in Web3.</h2>
         <p className="text-base text-caption font-medium">You want to lead mass adoption with unmatched UX.</p>
-        <Link href="https://t.me/moondaystudio" target="_blank"
+        <Link href="https://t.me/moondaydesign" target="_blank"
           className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
           <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
             <Image priority src={sendicon} width={24} height={24} alt='' />
@@ -180,7 +180,7 @@ export default function Home() {
       <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Unlock explosive growth with creativity and interactivity at the core of your social media strategy.</h2>
         <p className="text-base text-caption font-medium">Leverage video content, foster community bonds, and cultivate Web3 partnerships to drive success.</p>
-        <Link href="https://t.me/moondaystudio" target="_blank"
+        <Link href="https://t.me/moondaydesign" target="_blank"
           className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
           <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
             <Image priority src={sendicon} width={24} height={24} alt='' />
@@ -284,7 +284,7 @@ export default function Home() {
       <div className="bgeffect flex flex-col text-center gap-8 py-16 px-8 md:py-20 md:px-40 items-center justify-center rounded-[64px] md:rounded-full bg-bodybg noise border border-transparentbg w-[100vw]">
         <h2>Have questions or interested in a collaboration?</h2>
         <p className="text-base text-caption font-medium">Let's leverage the right tools to foster trust and seamless communication. Connect with us on Telegram.</p>
-        <Link href="https://t.me/moondaystudio" target="_blank"
+        <Link href="https://t.me/moondaydesign" target="_blank"
           className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
           <div className="flex gap-2 transition-all justify-center items-center pr-16 pl-12 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
             <Image priority src={sendicon} width={24} height={24} alt='' />

@@ -89,7 +89,7 @@ export default function Home() {
 
       <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-8 w-full">
         <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
-          <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-lime-200 to-lime-500'>A tailored landing page that converts</p>
+          <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>Unleash the power of first impressions</p>
           <h2>All you need for your launch</h2>
           <p className="text-sm font-medium text-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
           <div className="flex gap-2 w-full flex-wrap">
@@ -134,9 +134,9 @@ export default function Home() {
 
       <div className="flex flex-col px-4 md:px-20 xl:px-40 gap-8 w-full">
         <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
-          <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
-          <h2>Reinforce your brand and community</h2>
-          <p className="text-sm font-medium text-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
+          <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>Enhancing Brand Engagement</p>
+          <h2>Connecting brands with communities</h2>
+          <p className="text-sm font-medium text-caption">Unleash the full potential of your brand's identity with our transformative design strategies. From revitalizing your visual identity to crafting engaging social media experiences, we'll help you forge a path that leads to unparalleled brand success.</p>
           <div className="flex gap-2 w-full flex-wrap">
             <div className="flex px-4 py-2 rounded-xl bg-transparentbg border border-transparentbg shadow-lg backdrop-blur-[1px]">
               <span className="text-start text-sm font-medium text-label">Rebranding</span>
@@ -190,6 +190,10 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-40 px-4 md:px-20 xl:px-40">
+        <div className="flex flex-col gap-6 justify-center items-center">
+          <p className="text-start text-md font-semibold text-caption">In collaboration with</p>
+          <Link href="https://block3.pr/" target="blank" className="flex justify-center items-center"><Image src={block3logo} alt="" width={294} height={104} className="opacity-80 hover:opacity-100 scale-50 md:scale-75 ld:scale-90" /></Link>
+        </div>
         <div className="flex flex-wrap lg:flex-nowrap gap-6 items-center justify-center">
           <div className='flex gap-6 flex-wrap md:flex-nowrap w-full'>
             <div className="flex flex-col w-full md:w-6/12 grow rounded-3xl p-8 pb-4 h-[24rem] sm:h-[32rem] md:h-[20rem] justify-between overflow-hidden bg-background border border-transparentbg shadow-whitebox">
@@ -234,8 +238,8 @@ export default function Home() {
 
         <div className="flex flex-col gap-8 w-full">
           <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
-            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
-            <h2>Grow your TVL</h2>
+            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>Take an intelligent approach to your content strategy</p>
+            <h2>Focus on Business Development</h2>
             <p className="text-sm font-medium text-caption">Let us create unique partnerships involving the different spaces of the Web3 ecosystem to drive your business growth, and trust us to create interactive content to promote them.</p>
           </div>
           <div className="flex flex-col gap-6 w-full">
@@ -252,7 +256,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-8 w-full">
           <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
-            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
+            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>Understand how to highlights your achievements</p>
             <h2>Grow your hype</h2>
             <p className="text-sm font-medium text-caption">We know how to design high quality content to maximize the hype around your updates & announcements</p>
           </div>
@@ -265,7 +269,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-8 w-full">
           <div className="flex flex-col gap-4 justify-center max-w-screen-sm">
-            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>A tailored landing page that converts</p>
+            <p className='text-md font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-500'>Build your interactive army</p>
             <h2>Community building is always evolving</h2>
             <p className="text-sm font-medium text-caption">You want to design the best Web3 strategies, using the right tools and trends in order to build a strong and proactive community that will help you reach your goals!</p>
           </div>

@@ -27,7 +27,7 @@ export default function RootLayout({
           <Link className="flex items-start justify-start" href="/">
             <Image priority src={logo} width={227} height={96} alt='' className='w-4/5 md:scale-90' />
           </Link>
-          <Link href="https://t.me/moondaystudio" target="_blank"
+          <Link href="https://t.me/moondaydesign" target="_blank"
             className="flex buttonBG transition-all justify-center items-center p-0.5 rounded-full overflow-hidden shadow-whitepers active:shadow-none">
             <div className="bgeffect flex gap-2 transition-all justify-center items-center md:pr-16 md:pl-12 px-4 py-4 bg-bodybg w-full rounded-full text-label hover:bg-bodybg/[0.96] text-sm font-semibold">
               <Image priority src={sendicon} width={24} height={24} alt='' />

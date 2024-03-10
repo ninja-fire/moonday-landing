@@ -7,8 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/logo/moonday-logo.svg";
 import sendicon from "../public/icons/send.svg";
-
-const inter = Inter({ subsets: ["latin"] });
+import localFont from "next/dist/compiled/@next/font/dist/local";
 
 export const metadata: Metadata = {
   title: "Moonday - Web3 Design and Marketing Studio",
@@ -21,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={fontclash.className} >
       <body className={`${fontclash.className} antialiased scroll-smooth`}>
         <header className="flex sticky top-0 justify-between items-center pt-4 pb-2 px-4 md:px-20 xl:px-40 z-10 bg-background">
           <Link className="flex items-start justify-start" href="/">

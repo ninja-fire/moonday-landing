@@ -48,7 +48,7 @@ body {
 }
 
 h1 {
-  font-family: "Clash Display Variable";
+  font-family: Clash Display Variable, sans-serif;
   font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Clash Display Variable";
+  font-family: Clash Display Variable, sans-serif;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
@@ -68,7 +68,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Clash Display Variable";
+  font-family: Clash Display Variable, sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
@@ -80,7 +80,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Clash Display Variable";
+  font-family: Clash Display Variable, sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
@@ -90,7 +90,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Clash Display Variable";
+  font-family: Clash Display Variable, sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
@@ -131,29 +131,24 @@ h5 {
 @media only screen and (max-width: 768px) {
 
   h1 {
-    font-family: "Clash Display Variable";
     font-size: 3rem;
     line-height: 4rem;
 
   }
 
   h2 {
-    font-family: "Clash Display Variable";
     font-size: 2rem;
   }
 
   h3 {
-    font-family: "Clash Display Variable";
     font-size: 1.5rem;
   }
 
   h4 {
-    font-family: "Clash Display Variable";
     font-size: 1.2rem;
   }
 
   h5 {
-    font-family: "Clash Display Variable";
     font-size: 0.875rem;
   }
 }
